@@ -1,11 +1,129 @@
 <html>
     <head>
-        <title>Demo</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <style>
+            body{
+                margin:0;
+			    background: linear-gradient(to top, #FDEDEC 0%,#FDEDEC 500px,#212F3C 500px,#212F3C 100% );
+                font-family:georgia,garamond,serif;font-size:14px;
+            }
+            .onHoverDark:hover { background-color: #222222 !important; color: #BABABA !important;}
+		    .hrefWithoutDecoration {text-decoration: none !important; color:black !important;}
+		    .activeCustom {color:#FFF}
+		    .inactiveCustom {color:#A9A9A9}
+
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Sayantan's Home Page">
+        <meta name="author" content="Sayantan Banerjee">
+        <meta charset="UTF-8">
+        
+        
+        <meta property="og:title" content="Sayantan's HomePage">
+        <meta property="og:description" content="Sayantan's Home Page">
+        <title>Sayantan Banerjee</title>
+
+    
     </head>
     <body>
-        <h1>
-            This is a demo page and I am Sayantan
-        </h1>
+        <div class="container pt-5 pb-3">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row pb-3">
+                        <div class="col">
+                            <h1 class="text-white">Sayantan Banerjee</h1>
+                            
+
+                        </div>
+                    </div>
+                    <div class="row mt-3 mb-4 text-center">
+                        <div class="col-xl-6">
+                            <div class="row">
+                                <div class="col">
+                                    <a class="nav-link onHoverDark activeCustom" href="/">Home</a>
+                                </div>
+                                <div class="col">
+                                    <a class="nav-link onHoverDark inactiveCustom" href="/profile">Profile</a>
+                                </div>
+                                <div class="col">
+                                    <a class="nav-link onHoverDark inactiveCustom" href="/profile">Projects</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-1">
+                    <div class="row pb-3">
+                        <div class="col">
+                            <img src="image/iitm logo.png" width="100%">
+
+                            
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="row pb-3">
+                        <div class="col">
+                            <h4 class="text-white">Department of Mathematics</h4>
+                            <h5 class="text-white">IIT MADRAS</h5>
+                            
+
+                        </div>
+                    </div>
+                </div>    
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="mb-5 mt-4 mx-1">
+                        <h1 style="color:#16A085";>Welcome to my homepage</h1>
+                        <p >
+                            I am currently an M.Tech student in Industrial Mathematics and Scientific Computing at IIT Madras.<br>My research interests include Machine 
+                            learning, Deep learning, Artificial intelligence and mathematical modelling of various industry related problems mainly through 
+                            the techniques of Numerical optimization. <br>My aim is to pursue a research career in Mathematics and Computing.<br> 
+
+                        </p>
+
+
+                    </div>
+                    <div class="mb-5 mt-4 mx-1">
+                        <h2>Contact Information</h2>
+                        <p>
+                            <a href="mailto:sayantanbanerjee74@gmail.com"><strong>Gmail Id: </strong> sayantanbanerjee74@gmail.com</a><br><br>
+                            <a href="mailto:ma19m017@smail.iitm.ac.in"><strong>Institutemail Id: </strong> ma19m017@smail.iitm.ac.in</a><br><br>
+                            <a href="https://www.linkedin.com/in/sayantan-banerjee-43b41b148/"><strong>LinkedIn</strong> </a><br><br>
+                            <a href="https://github.com/sayantan237"><strong>GitHub</strong> </a><br><br>
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 pt-5">
+                    <div class="col text-center">
+                        <img src="image/profilepic.jpeg" width="150%" >
+                    </div>
+                    <div class="row pt-5 pb-3">
+
+                        <div class="col">
+                            <h3>Resume:</h3>
+                            <a href="pdf/MA19M017(sayantan).pdf" class="hrefWithoutDecoration"><button type="button" class="btn btn-light btn-outline-dark">Click to view the pdf</button></a>
+
+                        </div>    
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </body>
 </html>
